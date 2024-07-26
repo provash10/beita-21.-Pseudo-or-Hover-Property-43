@@ -1,0 +1,20 @@
+Hover Element /Pseodo Element
+===============================
+ <div class="block1"></div>
+    <p>This is a paragraph</p>
+
+    ==============
+    .block1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.block1:hover{
+    background-color: green;
+}
+p{
+    color: blue;
+}
+p:hover{
+    color: brown;
+}
